@@ -1,0 +1,93 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\MrSom\OneDrive\Projects\EVAL-BOARDS\STM8L151K-EVAL\Board.001\PCB.PcbDoc
+Date     : 08.11.2019
+Time     : 4:34:16
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InPolygon),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.25mm) (OnLayer('Multi-Layer') and IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.4mm) (All),(InPadClass('NPTH'))
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.15mm) (Max=10mm) (Preferred=0.15mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.5mm) (Conductor Width=0.3mm) (Air Gap=0.2mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=5mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.05mm) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (0.05mm < 0.05mm) Between Pad D2-1(43.95mm,23.75mm) on Top Layer And Pad D2-2(43.95mm,23.25mm) on Top Layer [Top Solder] Mask Sliver [0.05mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.05mm < 0.05mm) Between Pad D2-10(45.05mm,19.65mm) on Top Layer And Pad D2-11(45.55mm,19.65mm) on Top Layer [Top Solder] Mask Sliver [0.05mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.05mm < 0.05mm) Between Pad D2-12(46.05mm,19.65mm) on Top Layer And Pad D2-13(46.55mm,19.65mm) on Top Layer [Top Solder] Mask Sliver [0.05mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.05mm < 0.05mm) Between Pad D2-14(47.05mm,19.65mm) on Top Layer And Pad D2-15(47.55mm,19.65mm) on Top Layer [Top Solder] Mask Sliver [0.05mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.05mm < 0.05mm) Between Pad D2-18(48.65mm,20.75mm) on Top Layer And Pad D2-19(48.65mm,21.25mm) on Top Layer [Top Solder] Mask Sliver [0.05mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.05mm < 0.05mm) Between Pad D2-20(48.65mm,21.75mm) on Top Layer And Pad D2-21(48.65mm,22.25mm) on Top Layer [Top Solder] Mask Sliver [0.05mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.05mm < 0.05mm) Between Pad D2-22(48.65mm,22.75mm) on Top Layer And Pad D2-23(48.65mm,23.25mm) on Top Layer [Top Solder] Mask Sliver [0.05mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.05mm < 0.05mm) Between Pad D2-26(47.55mm,24.35mm) on Top Layer And Pad D2-27(47.05mm,24.35mm) on Top Layer [Top Solder] Mask Sliver [0.05mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.05mm < 0.05mm) Between Pad D2-28(46.55mm,24.35mm) on Top Layer And Pad D2-29(46.05mm,24.35mm) on Top Layer [Top Solder] Mask Sliver [0.05mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.05mm < 0.05mm) Between Pad D2-30(45.55mm,24.35mm) on Top Layer And Pad D2-31(45.05mm,24.35mm) on Top Layer [Top Solder] Mask Sliver [0.05mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.05mm < 0.05mm) Between Pad D2-4(43.95mm,22.25mm) on Top Layer And Pad D2-5(43.95mm,21.75mm) on Top Layer [Top Solder] Mask Sliver [0.05mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.05mm < 0.05mm) Between Pad D2-6(43.95mm,21.25mm) on Top Layer And Pad D2-7(43.95mm,20.75mm) on Top Layer [Top Solder] Mask Sliver [0.05mm]
+Rule Violations :12
+
+Processing Rule : Silk To Solder Mask (Clearance=0.05mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=2.54mm) (InNetClass('RMII'))
+Rule Violations :0
+
+Processing Rule : Room Interfaces (Bounding Region = (168.9mm, 158.1mm, 211.1mm, 192mm) (InComponentClass('Interfaces'))
+Rule Violations :0
+
+Processing Rule : Room MCU (Bounding Region = (142.3mm, 168.2mm, 174.6mm, 179mm) (InComponentClass('MCU'))
+Rule Violations :0
+
+Processing Rule : Room User (Bounding Region = (187.9mm, 171mm, 202.5mm, 179mm) (InComponentClass('User'))
+Rule Violations :0
+
+Processing Rule : Room Power Supply (Bounding Region = (137.3mm, 158mm, 212mm, 179.2mm) (InComponentClass('Power Supply'))
+Rule Violations :0
+
+Processing Rule : Room Debug Connector (Bounding Region = (117.2mm, 161.1mm, 153.9mm, 188.1mm) (InComponentClass('Debug Connector'))
+Rule Violations :0
+
+Processing Rule : Room GPIO Headers (Bounding Region = (148.5mm, 158mm, 184.7mm, 192mm) (InComponentClass('GPIO Headers'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=60mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 12
+Waived Violations : 0
+Time Elapsed        : 00:00:02
