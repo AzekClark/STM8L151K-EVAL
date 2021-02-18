@@ -1,18 +1,18 @@
-[Design]
+﻿[Design]
 Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
 ReleasesFolder=
 ChannelDesignatorFormatString=$Component_$RoomName
 ChannelRoomLevelSeperator=_
-OpenOutputs=1
+OpenOutputs=0
 ArchiveProject=0
-TimestampOutput=0
+TimestampOutput=1
 SeparateFolders=0
 TemplateLocationPath=
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
-AllowPortNetNames=0
+AllowPortNetNames=1
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
@@ -28,9 +28,10 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
-LogFolderPath=
+OutputPath=Documents\Outputs
+LogFolderPath=Documents\Logs
 ManagedProjectGUID=
+Template=E:\OneDrive\Altium Designer\Templates\ProjectTemplate.PrjPcb
 IncludeDesignInRelease=0
 
 [Preferences]
@@ -38,13 +39,13 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=MCU.SchDoc
+DocumentPath=Schematics\MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=4
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -52,67 +53,16 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=UUHFGIQR
+DocumentUniqueId=XRWEVHRB
 
 [Document2]
-DocumentPath=Power Supply.SchDoc
+DocumentPath=Schematics\Connector-side-1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=1
-DoLibraryUpdate=0
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=MAPPCQET
-
-[Document3]
-DocumentPath=Debug Connector.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=0
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=XGHBPLCS
-
-[Document4]
-DocumentPath=GPIO Headers.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=3
-DoLibraryUpdate=0
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=AJIMAVUX
-
-[Document5]
-DocumentPath=Interfaces.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -120,10 +70,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=YQEGWYCO
+DocumentUniqueId=FSOXODSQ
 
-[Document6]
-DocumentPath=User.SchDoc
+[Document3]
+DocumentPath=Schematics\Connector-side-2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -137,9 +87,77 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=LYAHOAYK
+DocumentUniqueId=UNNEPGBG
+
+[Document4]
+DocumentPath=Schematics\Connector-side-3.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FWEJMSHP
+
+[Document5]
+DocumentPath=Schematics\Connector-SWIM.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=3
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NWCDRMDH
+
+[Document6]
+DocumentPath=Schematics\Board-user.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=4
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JSALRWUN
 
 [Document7]
+DocumentPath=Schematics\Board-powersupply.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=5
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=DRROWWRT
+
+[Document8]
 DocumentPath=PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -154,128 +172,15 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=LVHRULSX
-
-[Document8]
-DocumentPath=Main.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=ICNFIACE
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Board.001\BOM\BOM-Board.001.xls
+DocumentPath=Documents\Outputs\Design Rule Check - PCB.html
 DItemRevisionGUID=
 
-[GeneratedDocument2]
-DocumentPath=Gerber\PCB.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for Board.001\Gerber\PCB.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Gerber\PCB.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for Board.001\Gerber\PCB.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Gerber\PCB.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for Board.001\Gerber\PCB.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Gerber\PCB.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for Board.001\Gerber\PCB.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Gerber\PCB.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for Board.001\Gerber\PCB.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Gerber\PCB.GM15
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Gerber\PCB.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for Board.001\Gerber\PCB.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Gerber\PCB.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for Board.001\Gerber\PCB.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Gerber\PCB.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for Board.001\Gerber\PCB.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Gerber\PCB.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for Board.001\Gerber\PCB.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Gerber\PCB.REP
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for Board.001\Gerber\PCB.REP
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Gerber\PCB.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for Board.001\Gerber\PCB.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Gerber\PCB.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for Board.001\Gerber\PCB.TXT
-DItemRevisionGUID=
+[SearchPath1]
+Path=..\..\..\Altium Designer\Librarys\Source\*.*
+IncludeSubFolders=1
 
 [Parameter1]
 Name=ProjectAuthor
@@ -283,15 +188,27 @@ Value=Clark A.
 
 [Parameter2]
 Name=ProjectCompanyName
-Value=Azek Clark � 2019
+Value=Azek Clark © 2021
 
 [Parameter3]
-Name=ProjectNumber
-Value=STM8L151K-EVAL.001
+Name=ProjectDate
+Value=01.02.2019
 
 [Parameter4]
-Name=SheetsTotal
-Value=6
+Name=ProjectNumber
+Value=STM8L151K-EVAL
+
+[Parameter5]
+Name=ProjectRevision
+Value=002
+
+[Parameter6]
+Name=ProjectShortDate
+Value=2019.02
+
+[Parameter7]
+Name=ProjectTitle
+Value=Evaluation board for MCU STM8L151
 
 [Configuration1]
 Name=Sources
@@ -304,7 +221,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Documents\Outputs
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -415,7 +332,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Samsung M2070 Series (USB001)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -483,6 +400,12 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=PDF3D MBA
+OutputName11=PDF3D MBA
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -511,20 +434,20 @@ Name=Fabrication Outputs
 Description=
 TargetPrinter=Samsung M2070 Series (USB001)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=CompositeDrill
-OutputName1=Composite Drill Drawing
+OutputType1=Board Stack Report
+OutputName1=Report Board Stack
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType2=Drill
-OutputName2=Drill Drawing/Guides
+OutputType2=CompositeDrill
+OutputName2=Composite Drill Drawing
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType3=Board Stack Report
-OutputName3=Report Board Stack
+OutputType3=Drill
+OutputName3=Drill Drawing/Guides
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
@@ -535,56 +458,48 @@ OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType5=Gerber X2
-OutputName5=Gerber X2 Files
+OutputType5=Gerber
+OutputName5=Gerber Files
 OutputDocumentPath5=
-OutputVariantName5=
+OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=ODB
-OutputName6=ODB++ Files
+OutputType6=Gerber X2
+OutputName6=Gerber X2 Files
 OutputDocumentPath6=
-OutputVariantName6=[No Variations]
+OutputVariantName6=
 OutputDefault6=0
-OutputType7=Mask
-OutputName7=Solder/Paste Mask Prints
+OutputType7=IPC2581
+OutputName7=IPC-2581 Files
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType8=NC Drill
-OutputName8=NC Drill Files
+OutputType8=Mask
+OutputName8=Solder/Paste Mask Prints
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-Configuration8_Name1=ForceUpdateSettings
-Configuration8_Item1=False
-Configuration8_Name2=OutputConfigurationParameter1
-Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes
-OutputType9=IPC2581
-OutputName9=IPC-2581 Files
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=NC Drill
+OutputName9=NC Drill Files
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Plane
-OutputName10=Power-Plane Prints
+OutputType10=ODB
+OutputName10=ODB++ Files
 OutputDocumentPath10=
-OutputVariantName10=
+OutputVariantName10=[No Variations]
 OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType11=Test Points
-OutputName11=Test Point Report
+OutputType11=Plane
+OutputName11=Power-Plane Prints
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Gerber
-OutputName12=Gerber Files
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType12=Test Points
+OutputName12=Test Point Report
 OutputDocumentPath12=
-OutputVariantName12=[No Variations]
+OutputVariantName12=
 OutputDefault12=0
-Configuration12_Name1=ForceUpdateSettings
-Configuration12_Item1=False
-Configuration12_Name2=OutputConfigurationParameter1
-Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973834~1,16777217~1,16842751~1,16973835~1,16973831~1,16908293~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
 
 [OutputGroup6]
 Name=Report Outputs
@@ -597,18 +512,6 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-Configuration1_Name1=ColumnNameFormat
-Configuration1_Item1=CaptionAsName
-Configuration1_Name2=ForceUpdateSettings
-Configuration1_Item2=False
-Configuration1_Name3=General
-Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
-Configuration1_Name4=GroupOrder
-Configuration1_Item4=Comment=True|Footprint=True
-Configuration1_Name5=SortOrder
-Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
-Configuration1_Name6=VisibleOrder
-Configuration1_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
@@ -1049,6 +952,8 @@ Type114=1
 Type115=1
 Type116=1
 Type117=1
+Type118=1
+Type119=1
 
 [Difference Levels]
 Type1=1
@@ -1117,6 +1022,8 @@ Type63=1
 Type64=1
 Type65=1
 Type66=1
+Type67=1
+Type68=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1125,33 +1032,33 @@ Type3=2
 Type4=1
 Type5=2
 Type6=2
-Type7=1
+Type7=0
 Type8=1
 Type9=1
 Type10=1
 Type11=2
-Type12=2
-Type13=2
+Type12=0
+Type13=0
 Type14=1
 Type15=1
 Type16=1
 Type17=1
 Type18=1
 Type19=1
-Type20=1
-Type21=1
-Type22=1
-Type23=1
+Type20=0
+Type21=0
+Type22=0
+Type23=0
 Type24=1
 Type25=2
-Type26=2
+Type26=0
 Type27=2
 Type28=1
 Type29=1
 Type30=1
 Type31=1
 Type32=2
-Type33=2
+Type33=0
 Type34=2
 Type35=1
 Type36=2
@@ -1162,15 +1069,15 @@ Type40=2
 Type41=0
 Type42=2
 Type43=1
-Type44=1
-Type45=2
-Type46=1
-Type47=2
-Type48=2
-Type49=1
+Type44=0
+Type45=0
+Type46=0
+Type47=0
+Type48=0
+Type49=0
 Type50=2
-Type51=1
-Type52=1
+Type51=0
+Type52=0
 Type53=1
 Type54=1
 Type55=1
@@ -1178,10 +1085,10 @@ Type56=2
 Type57=1
 Type58=1
 Type59=2
-Type60=1
-Type61=2
-Type62=2
-Type63=1
+Type60=0
+Type61=0
+Type62=0
+Type63=0
 Type64=0
 Type65=2
 Type66=3
@@ -1219,7 +1126,7 @@ Type97=2
 Type98=0
 Type99=1
 Type100=2
-Type101=1
+Type101=0
 Type102=2
 Type103=2
 Type104=1
@@ -1264,6 +1171,7 @@ L17=WNNNNNNNWNNNWWWWN
 [Annotate]
 SortOrder=3
 SortLocation=0
+ReplaceSubparts=0
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
@@ -1284,79 +1192,68 @@ NetClassSeparateForBusSections=0
 [LibraryUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=Connectors.IntLib
-ComponentDesignItemID0=10-Connector
-ComponentSymbolReference0=10-Connector
+ComponentDesignItemID0=16-Connector
+ComponentSymbolReference0=16-Connector
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=Connectors.IntLib
-ComponentDesignItemID1=20-Connector
-ComponentSymbolReference1=20-Connector
+ComponentDesignItemID1=4-Connector
+ComponentSymbolReference1=4-Connector
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
 ComponentLibraryIdentifier2=Connectors.IntLib
-ComponentDesignItemID2=3-Connector
-ComponentSymbolReference2=3-Connector
+ComponentDesignItemID2=Tactile switches
+ComponentSymbolReference2=Tactile switches
 ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=Connectors.IntLib
-ComponentDesignItemID3=4-Connector
-ComponentSymbolReference3=4-Connector
+ComponentLibraryIdentifier3=Digital.IntLib
+ComponentDesignItemID3=STM8L151KxU6
+ComponentSymbolReference3=STM8L151KxU6
 ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=Connectors.IntLib
-ComponentDesignItemID4=6-Connector
-ComponentSymbolReference4=6-Connector
+ComponentLibraryIdentifier4=Discrete.IntLib
+ComponentDesignItemID4=Capacitor
+ComponentSymbolReference4=Capacitor
 ComponentUpdate4=1
 ComponentIsDeviceSheet4=0
 ComponentLibIdentifierKind5=Library Name And Type
-ComponentLibraryIdentifier5=Connectors.IntLib
-ComponentDesignItemID5=Tactile switches
-ComponentSymbolReference5=Tactile switches
-ComponentUpdate5=0
+ComponentLibraryIdentifier5=Discrete.IntLib
+ComponentDesignItemID5=Generator
+ComponentSymbolReference5=Generator
+ComponentUpdate5=1
 ComponentIsDeviceSheet5=0
 ComponentLibIdentifierKind6=Library Name And Type
-ComponentLibraryIdentifier6=Digital.IntLib
-ComponentDesignItemID6=STM8L151KxU6
-ComponentSymbolReference6=STM8L151KxU6
+ComponentLibraryIdentifier6=Discrete.IntLib
+ComponentDesignItemID6=LED
+ComponentSymbolReference6=LED
 ComponentUpdate6=1
 ComponentIsDeviceSheet6=0
 ComponentLibIdentifierKind7=Library Name And Type
-ComponentLibraryIdentifier7=Diods.IntLib
-ComponentDesignItemID7=Diod Schottky
-ComponentSymbolReference7=Diod Schottky
+ComponentLibraryIdentifier7=Discrete.IntLib
+ComponentDesignItemID7=Resistor
+ComponentSymbolReference7=Resistor
 ComponentUpdate7=1
 ComponentIsDeviceSheet7=0
 ComponentLibIdentifierKind8=Library Name And Type
 ComponentLibraryIdentifier8=Discrete.IntLib
-ComponentDesignItemID8=Capacitor
-ComponentSymbolReference8=Capacitor
-ComponentUpdate8=0
+ComponentDesignItemID8=TantalCap
+ComponentSymbolReference8=TantalCap
+ComponentUpdate8=1
 ComponentIsDeviceSheet8=0
 ComponentLibIdentifierKind9=Library Name And Type
-ComponentLibraryIdentifier9=Discrete.IntLib
-ComponentDesignItemID9=Inductor
-ComponentSymbolReference9=Inductor
-ComponentUpdate9=0
+ComponentLibraryIdentifier9=Power Supplies.IntLib
+ComponentDesignItemID9=L78LxxACUTR
+ComponentSymbolReference9=L78LxxACUTR
+ComponentUpdate9=1
 ComponentIsDeviceSheet9=0
-ComponentLibIdentifierKind10=Library Name And Type
-ComponentLibraryIdentifier10=Discrete.IntLib
-ComponentDesignItemID10=TantalCap
-ComponentSymbolReference10=TantalCap
-ComponentUpdate10=1
-ComponentIsDeviceSheet10=0
-ComponentLibIdentifierKind11=Library Name And Type
-ComponentLibraryIdentifier11=Power Supplies.IntLib
-ComponentDesignItemID11=L78LxxACUTR
-ComponentSymbolReference11=L78LxxACUTR
-ComponentUpdate11=1
-ComponentIsDeviceSheet11=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1397,375 +1294,244 @@ ModelType1=PCBLIB
 ModelName1=BUT: 4X41.5 SMT
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=BUT: 6x6
+ModelName2=BUT: 6x3.5
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=BUT: 6x6 mm (R)
+ModelName3=BUT: 6x6
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=BUT: 6x6 SMD
+ModelName4=BUT: 6x6 mm (R)
 ModelUpdate4=1
 ModelType5=PCBLIB
-ModelName5=CAP: B32021
+ModelName5=BUT: 6x6 SMD
 ModelUpdate5=1
 ModelType6=PCBLIB
-ModelName6=CAP: B32522
+ModelName6=CAP: B32021
 ModelUpdate6=1
 ModelType7=PCBLIB
-ModelName7=CAP: B32654
+ModelName7=CAP: B32522
 ModelUpdate7=1
 ModelType8=PCBLIB
-ModelName8=CAP: B32676
+ModelName8=CAP: B32654
 ModelUpdate8=1
 ModelType9=PCBLIB
-ModelName9=CAP: B32774
+ModelName9=CAP: B32676
 ModelUpdate9=1
 ModelType10=PCBLIB
-ModelName10=CAP: B32776
+ModelName10=CAP: B32774
 ModelUpdate10=1
 ModelType11=PCBLIB
-ModelName11=CAP: ECW
+ModelName11=CAP: B32776
 ModelUpdate11=1
 ModelType12=PCBLIB
-ModelName12=CAP: EZPE
+ModelName12=CAP: ECW
 ModelUpdate12=1
 ModelType13=PCBLIB
-ModelName13=CH0201C
+ModelName13=CAP: EZPE
 ModelUpdate13=1
 ModelType14=PCBLIB
-ModelName14=CH0201L
+ModelName14=CH0201C
 ModelUpdate14=1
 ModelType15=PCBLIB
-ModelName15=CH0402C
+ModelName15=CH0201R
 ModelUpdate15=1
 ModelType16=PCBLIB
-ModelName16=CH0402L
+ModelName16=CH0402C
 ModelUpdate16=1
 ModelType17=PCBLIB
-ModelName17=CH0603C
+ModelName17=CH0402LB
 ModelUpdate17=1
 ModelType18=PCBLIB
-ModelName18=CH0603L
+ModelName18=CH0402LG
 ModelUpdate18=1
 ModelType19=PCBLIB
-ModelName19=CH0805C
+ModelName19=CH0402LR
 ModelUpdate19=1
 ModelType20=PCBLIB
-ModelName20=CH0805L
+ModelName20=CH0402R
 ModelUpdate20=1
 ModelType21=PCBLIB
-ModelName21=CH1206C
+ModelName21=CH0603C
 ModelUpdate21=1
 ModelType22=PCBLIB
-ModelName22=CH1210C
+ModelName22=CH0603LB
 ModelUpdate22=1
 ModelType23=PCBLIB
-ModelName23=CH1812C
+ModelName23=CH0603LG
 ModelUpdate23=1
 ModelType24=PCBLIB
-ModelName24=CH2220C
+ModelName24=CH0603LR
 ModelUpdate24=1
 ModelType25=PCBLIB
-ModelName25=CON: 0010321041
+ModelName25=CH0603LY
 ModelUpdate25=1
 ModelType26=PCBLIB
-ModelName26=CON: 0533750310
+ModelName26=CH0603R
 ModelUpdate26=1
 ModelType27=PCBLIB
-ModelName27=CON: 0533750410
+ModelName27=CH0805C
 ModelUpdate27=1
 ModelType28=PCBLIB
-ModelName28=CON: 0533750610
+ModelName28=CH0805LB
 ModelUpdate28=1
 ModelType29=PCBLIB
-ModelName29=CON: 0533751010
+ModelName29=CH0805LG
 ModelUpdate29=1
 ModelType30=PCBLIB
-ModelName30=CON: 0533980371
+ModelName30=CH0805LR
 ModelUpdate30=1
 ModelType31=PCBLIB
-ModelName31=CON: 0533980471
+ModelName31=CH0805LY
 ModelUpdate31=1
 ModelType32=PCBLIB
-ModelName32=CON: 10-32-1031
+ModelName32=CH0805R
 ModelUpdate32=1
 ModelType33=PCBLIB
-ModelName33=CON: 3 PIN 1x1
+ModelName33=CH1206C
 ModelUpdate33=1
 ModelType34=PCBLIB
-ModelName34=CON: 300-03P-5.0
+ModelName34=CH1206LB
 ModelUpdate34=1
 ModelType35=PCBLIB
-ModelName35=CON: 300-03P-5.08
+ModelName35=CH1206LG
 ModelUpdate35=1
 ModelType36=PCBLIB
-ModelName36=CON: 340-021-14-03P-3.81
+ModelName36=CH1206LW
 ModelUpdate36=1
 ModelType37=PCBLIB
-ModelName37=CON: BH-10
+ModelName37=CH1206LY
 ModelUpdate37=1
 ModelType38=PCBLIB
-ModelName38=CON: CWF-3
+ModelName38=CH1206R
 ModelUpdate38=1
 ModelType39=PCBLIB
-ModelName39=CON: CWF-4
+ModelName39=CH1210C
 ModelUpdate39=1
 ModelType40=PCBLIB
-ModelName40=CON: CWF-4RB
+ModelName40=CH1812C
 ModelUpdate40=1
 ModelType41=PCBLIB
-ModelName41=CON: CWF-6RB
+ModelName41=CH2010R
 ModelUpdate41=1
 ModelType42=PCBLIB
-ModelName42=CON: DG142V-5.08-03P
+ModelName42=CH2220C
 ModelUpdate42=1
 ModelType43=PCBLIB
-ModelName43=CON: IDC-10MS
+ModelName43=CH2512R
 ModelUpdate43=1
 ModelType44=PCBLIB
-ModelName44=CON: IDC-20MS
+ModelName44=CON: µSC-4
 ModelUpdate44=1
 ModelType45=PCBLIB
-ModelName45=CON: IDC-20MS SMT
+ModelName45=CON: 0010321041
 ModelUpdate45=1
 ModelType46=PCBLIB
-ModelName46=CON: IDC-6MS
+ModelName46=CON: 0533750410
 ModelUpdate46=1
 ModelType47=PCBLIB
-ModelName47=CON: KF243-5.0-03
+ModelName47=CON: 0533980471
 ModelUpdate47=1
 ModelType48=PCBLIB
-ModelName48=CON: MF-4MRA
+ModelName48=CON: CWF-4
 ModelUpdate48=1
 ModelType49=PCBLIB
-ModelName49=CON: PBD-10
+ModelName49=CON: CWF-4RB
 ModelUpdate49=1
 ModelType50=PCBLIB
-ModelName50=CON: PBD-20
+ModelName50=CON: DC-044B-3A-2.5
 ModelUpdate50=1
 ModelType51=PCBLIB
-ModelName51=CON: PBD-20  SMT
+ModelName51=CON: IDC-16MS
 ModelUpdate51=1
 ModelType52=PCBLIB
-ModelName52=CON: PBD-20R
+ModelName52=CON: MF-4MRA
 ModelUpdate52=1
 ModelType53=PCBLIB
-ModelName53=CON: PBD-4
+ModelName53=CON: PBD-16
 ModelUpdate53=1
 ModelType54=PCBLIB
-ModelName54=CON: PBD-6
+ModelName54=CON: PBD-4
 ModelUpdate54=1
 ModelType55=PCBLIB
-ModelName55=CON: PBS-10
+ModelName55=CON: PBS1.27-4 SMT
 ModelUpdate55=1
 ModelType56=PCBLIB
-ModelName56=CON: PBS-10_zero
+ModelName56=CON: PBS-4
 ModelUpdate56=1
 ModelType57=PCBLIB
-ModelName57=CON: PBS-20
+ModelName57=CON: PBS-4 SMT
 ModelUpdate57=1
 ModelType58=PCBLIB
-ModelName58=CON: PBS-3
+ModelName58=CON: PLD-16
 ModelUpdate58=1
 ModelType59=PCBLIB
-ModelName59=CON: PBS-4
+ModelName59=CON: PLD-4
 ModelUpdate59=1
 ModelType60=PCBLIB
-ModelName60=CON: PBS-6
+ModelName60=CON: PLD-4 SMT
 ModelUpdate60=1
 ModelType61=PCBLIB
-ModelName61=CON: PLD-10
+ModelName61=CON: PLS1.27-4R
 ModelUpdate61=1
 ModelType62=PCBLIB
-ModelName62=CON: PLD-20
+ModelName62=CON: PLS-16
 ModelUpdate62=1
 ModelType63=PCBLIB
-ModelName63=CON: PLD-4
+ModelName63=CON: PLS-4
 ModelUpdate63=1
 ModelType64=PCBLIB
-ModelName64=CON: PLD-6
+ModelName64=CON: PWL-4
 ModelUpdate64=1
 ModelType65=PCBLIB
-ModelName65=CON: PLS-10
+ModelName65=CON: WF-04
 ModelUpdate65=1
 ModelType66=PCBLIB
-ModelName66=CON: PLS-20
+ModelName66=CON: X977B04
 ModelUpdate66=1
 ModelType67=PCBLIB
-ModelName67=CON: PLS-3
+ModelName67=CON: XH-4AW
 ModelUpdate67=1
 ModelType68=PCBLIB
-ModelName68=CON: PLS-4
+ModelName68=OSC: 2520
 ModelUpdate68=1
 ModelType69=PCBLIB
-ModelName69=CON: PLS-6
+ModelName69=OSC: 3225
 ModelUpdate69=1
 ModelType70=PCBLIB
-ModelName70=CON: PWL-3
+ModelName70=OSC: 5032
 ModelUpdate70=1
 ModelType71=PCBLIB
-ModelName71=CON: PWL-4
+ModelName71=OSC: 5032_6
 ModelUpdate71=1
 ModelType72=PCBLIB
-ModelName72=CON: PWL-6
+ModelName72=OSC: 5070
 ModelUpdate72=1
 ModelType73=PCBLIB
-ModelName73=CON: WF-03
+ModelName73=OSC: CVHD-950-122.880
 ModelUpdate73=1
 ModelType74=PCBLIB
-ModelName74=CON: WF-04
+ModelName74=SOT89_123
 ModelUpdate74=1
 ModelType75=PCBLIB
-ModelName75=CON: WF-06
+ModelName75=TANTAL_A
 ModelUpdate75=1
 ModelType76=PCBLIB
-ModelName76=CON: WF-20
+ModelName76=TANTAL_B
 ModelUpdate76=1
 ModelType77=PCBLIB
-ModelName77=CON: X977B04
+ModelName77=TANTAL_C
 ModelUpdate77=1
 ModelType78=PCBLIB
-ModelName78=DO221AA
+ModelName78=TANTAL_D
 ModelUpdate78=1
 ModelType79=PCBLIB
-ModelName79=IND: B82477G
+ModelName79=TANTAL_E
 ModelUpdate79=1
-ModelType80=PCBLIB
-ModelName80=IND: B82477G4
-ModelUpdate80=1
-ModelType81=PCBLIB
-ModelName81=IND: CD43
-ModelUpdate81=1
-ModelType82=PCBLIB
-ModelName82=IND: CDEP147
-ModelUpdate82=1
-ModelType83=PCBLIB
-ModelName83=IND: CDRH127
-ModelUpdate83=1
-ModelType84=PCBLIB
-ModelName84=IND: CDRH4D28
-ModelUpdate84=1
-ModelType85=PCBLIB
-ModelName85=IND: CDRH74
-ModelUpdate85=1
-ModelType86=PCBLIB
-ModelName86=IND: CDRH8D43
-ModelUpdate86=1
-ModelType87=PCBLIB
-ModelName87=IND: IHLP 8787
-ModelUpdate87=1
-ModelType88=PCBLIB
-ModelName88=IND: IHLP2020
-ModelUpdate88=1
-ModelType89=PCBLIB
-ModelName89=IND: IHLP4040
-ModelUpdate89=1
-ModelType90=PCBLIB
-ModelName90=IND: IHLP6767
-ModelUpdate90=1
-ModelType91=PCBLIB
-ModelName91=IND: LQH32
-ModelUpdate91=1
-ModelType92=PCBLIB
-ModelName92=IND: PM75
-ModelUpdate92=1
-ModelType93=PCBLIB
-ModelName93=IND: SCDS127
-ModelUpdate93=1
-ModelType94=PCBLIB
-ModelName94=IND: SCRH105R
-ModelUpdate94=1
-ModelType95=PCBLIB
-ModelName95=IND: SDE0604A
-ModelUpdate95=1
-ModelType96=PCBLIB
-ModelName96=IND: SDR0403
-ModelUpdate96=1
-ModelType97=PCBLIB
-ModelName97=IND: SDR0805
-ModelUpdate97=1
-ModelType98=PCBLIB
-ModelName98=IND: SDR1005
-ModelUpdate98=1
-ModelType99=PCBLIB
-ModelName99=IND: SRN3015
-ModelUpdate99=1
-ModelType100=PCBLIB
-ModelName100=IND: SRN5040
-ModelUpdate100=1
-ModelType101=PCBLIB
-ModelName101=IND: SRP1038A
-ModelUpdate101=1
-ModelType102=PCBLIB
-ModelName102=IND: SRP1770TA
-ModelUpdate102=1
-ModelType103=PCBLIB
-ModelName103=IND: SRP2512
-ModelUpdate103=1
-ModelType104=PCBLIB
-ModelName104=IND: SRR1210
-ModelUpdate104=1
-ModelType105=PCBLIB
-ModelName105=IND: SRR1260
-ModelUpdate105=1
-ModelType106=PCBLIB
-ModelName106=IND: SRU1048
-ModelUpdate106=1
-ModelType107=PCBLIB
-ModelName107=SMA
-ModelUpdate107=1
-ModelType108=PCBLIB
-ModelName108=SMB
-ModelUpdate108=1
-ModelType109=PCBLIB
-ModelName109=SMC
-ModelUpdate109=1
-ModelType110=PCBLIB
-ModelName110=SOD123
-ModelUpdate110=1
-ModelType111=PCBLIB
-ModelName111=SOD123F
-ModelUpdate111=1
-ModelType112=PCBLIB
-ModelName112=SOD123W
-ModelUpdate112=1
-ModelType113=PCBLIB
-ModelName113=SOD323
-ModelUpdate113=1
-ModelType114=PCBLIB
-ModelName114=SOD80
-ModelUpdate114=1
-ModelType115=PCBLIB
-ModelName115=SOT23_123
-ModelUpdate115=1
-ModelType116=PCBLIB
-ModelName116=SOT23_132
-ModelUpdate116=1
-ModelType117=PCBLIB
-ModelName117=SOT23_231
-ModelUpdate117=1
-ModelType118=PCBLIB
-ModelName118=SOT89_123
-ModelUpdate118=1
-ModelType119=PCBLIB
-ModelName119=TANTAL_A
-ModelUpdate119=1
-ModelType120=PCBLIB
-ModelName120=TANTAL_B
-ModelUpdate120=1
-ModelType121=PCBLIB
-ModelName121=TANTAL_C
-ModelUpdate121=1
-ModelType122=PCBLIB
-ModelName122=TANTAL_D
-ModelUpdate122=1
-ModelType123=PCBLIB
-ModelName123=TANTAL_E
-ModelUpdate123=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 
 [Comparison Options]
